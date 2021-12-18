@@ -1,0 +1,88 @@
+body{
+  background-image: url('immagini/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+.logo{
+  width: 200px;
+}
+
+.container{
+  height: 500px;
+  width: 810px;
+  background-color: hsla(0, 0%, 0%, 0.5);
+  margin: auto;
+  margin-top: 25px;
+  padding: 75px;
+  border-radius: 25px;
+
+}
+
+header, nav{
+  text-align: center;
+
+}
+
+nav{
+  background-color: #00E51E;
+  padding: 10px;
+}
+
+
+h1{
+  color: #00E51E;
+  margin: 5px;
+  font-size: 25px;
+}
+
+
+
+.monopattino{
+  padding-top: 20px;
+  color: white;
+}
+
+.subject{
+  /* nome monopattino */
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.location, .arrow{
+  /* via */
+  font-size: 14px;
+
+}
+
+.charge{
+  /* stato carica */
+  font-size: 12px;
+  border-top: 1px;
+
+}
+
+
+.chargeline1{
+  background-color: #F4D03F;
+  height:20px;
+  width:300px;
+  border-radius: 5px;
+}
+
+.chargeline2{
+  background-color: #2ECC71;
+  height:20px;
+  width:450px;
+  border-radius: 5px;
+}
+
+.chargeline3{
+  background-color: #CB4335;
+  height:20px;
+  width:100px;
+  border-radius: 5px;
+}
